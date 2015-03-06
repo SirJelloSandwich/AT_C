@@ -1,0 +1,14 @@
+
+
+// KERNEL_VERSION:6.02
+
+\ Dumping 0xB3EB byte library ETHER_WIFI_DVR from xaddr 0x8000 
+
+HERE DIN 0xB3EB 0x8000 0xFFFF SEGMENT.BUMP XDUP DP X!
+
+( xbase.addr-- )   DIN 0xB3EB 0x54 0x0  ( xaddr\d_seg_size\varsize\eesize -- ) 
+LOAD.LIBRARY ETHER_WIFI_DVR
+
+END.LOAD.SEGMENT
+DATE/TIME: ETHER_WIFI_DVR ${Thu Oct 23 12:00:00 PDT 2014}$
+

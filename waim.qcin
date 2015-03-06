@@ -1,0 +1,14 @@
+
+
+// KERNEL_VERSION:6.02
+
+\ Dumping 0x326 byte library ANIO_DVR from xaddr 0x8000 
+
+HERE DIN 0x326 0x8000 0xFFFF SEGMENT.BUMP XDUP DP X!
+
+( xbase.addr-- )   DIN 0x326 0x0 0x0  ( xaddr\d_seg_size\varsize\eesize -- ) 
+LOAD.LIBRARY ANIO_DVR
+
+END.LOAD.SEGMENT
+DATE/TIME: ANIO_DVR ${Fri Aug 1 09:37:43 PDT 2008}$
+

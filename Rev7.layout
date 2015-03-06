@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE CodeBlocks_layout_file>
+<CodeBlocks_layout_file>
+	<File name="CalculateR.c" open="0" top="0">
+		<Cursor position="2681" topLine="0"/>
+	</File>
+	<File name="ControllOut.c" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="ControllOut.h" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="acquire.c" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="acquire.h" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="application.c" open="1" top="1">
+		<Cursor position="9467" topLine="117"/>
+	</File>
+	<File name="application.h" open="1" top="0">
+		<Cursor position="361" topLine="0"/>
+	</File>
+	<File name="global.h" open="1" top="0">
+		<Cursor position="392" topLine="0"/>
+	</File>
+	<File name="main.c" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<Expand folder="/Sources"/>
+	<Expand folder="/Headers"/>
+</CodeBlocks_layout_file>

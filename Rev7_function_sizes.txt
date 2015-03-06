@@ -1,0 +1,145 @@
+Flash usage of functions and ROM objects defined in project
+C:/MosaicPlus/my_projects/Rev7
+Each page is 0x4000 (16384) bytes, or 16K; from address 0x8000 to 0xBFFF.
+--
+Functions and ROM objects defined in CalculateR.c:
+bank08 (page 0x08), address 0x8000, size 0x3b: VarF
+bank08 (page 0x08), address 0x803b, size 0x46: VarS
+bank08 (page 0x08), address 0x8081, size 0x17f: CalcTherm
+bank08 (page 0x08), address 0x8200, size 0x127: CalcPwr
+bank08 (page 0x08), address 0x8327, size 0xc72: CALCULATER410a
+bank08 (page 0x08), address 0x8f99, size 0xe: CALCULATER22
+Total size of definitions in CalculateR.c: 4007 bytes (24.45%% of page size)
+--
+Functions and ROM objects defined in ControllOut.c:
+bank08 (page 0x08), address 0x8fa7, size 0x52: FunctionTimer
+bank08 (page 0x08), address 0x8ff9, size 0x5: FunctionTimer_ISR
+bank08 (page 0x08), address 0x8ffe, size 0x9: FunctionTimer_ISR_get_xaddr
+bank08 (page 0x08), address 0x9007, size 0x69: StartFunctionTimer
+bank08 (page 0x08), address 0x9070, size 0x34: mn
+bank08 (page 0x08), address 0x90a4, size 0x35: mx
+bank08 (page 0x08), address 0x90d9, size 0x22: FLR
+bank08 (page 0x08), address 0x90fb, size 0x604: ControllOut_loop
+bank08 (page 0x08), address 0x96ff, size 0x1c3: SScheck_loop
+bank08 (page 0x08), address 0x98c2, size 0x22c: Init_ControllOut
+bank08 (page 0x08), address 0x9aee, size 0x225: Init_SScheck
+Total size of definitions in ControllOut.c: 3436 bytes (20.97%% of page size)
+--
+Functions and ROM objects defined in acquire.c:
+bank08 (page 0x08), address 0x9d13, size 0x21e: Init_Acquire
+bank08 (page 0x08), address 0x9f31, size 0x3ee: Aquire_Data
+Total size of definitions in acquire.c: 1548 bytes (9.44%% of page size)
+--
+Functions and ROM objects defined in application.c:
+bank09 (page 0x09), address 0x8000, size 0x11: wbskt_typeof_HTMLPwrC
+bank09 (page 0x09), address 0x8011, size 0x12: wbskt_nameof_HTMLPwrC
+bank09 (page 0x09), address 0x8023, size 0xa: wbskt_argsof_HTMLPwrC
+bank09 (page 0x09), address 0x802d, size 0x11: wbskt_typeof_HTMLRfgtC
+bank09 (page 0x09), address 0x803e, size 0x13: wbskt_nameof_HTMLRfgtC
+bank09 (page 0x09), address 0x8051, size 0xa: wbskt_argsof_HTMLRfgtC
+bank09 (page 0x09), address 0x805b, size 0x11: wbskt_typeof_CtrlMode
+bank09 (page 0x09), address 0x806c, size 0x12: wbskt_nameof_CtrlMode
+bank09 (page 0x09), address 0x807e, size 0xa: wbskt_argsof_CtrlMode
+bank09 (page 0x09), address 0x8088, size 0x11: wbskt_typeof_RSV
+bank09 (page 0x09), address 0x8099, size 0xd: wbskt_nameof_RSV
+bank09 (page 0x09), address 0x80a6, size 0xa: wbskt_argsof_RSV
+bank09 (page 0x09), address 0x80b0, size 0x11: wbskt_typeof_CFhtml
+bank09 (page 0x09), address 0x80c1, size 0x10: wbskt_nameof_CFhtml
+bank09 (page 0x09), address 0x80d1, size 0xa: wbskt_argsof_CFhtml
+bank09 (page 0x09), address 0x80db, size 0x11: wbskt_typeof_EFhtml
+bank09 (page 0x09), address 0x80ec, size 0x10: wbskt_nameof_EFhtml
+bank09 (page 0x09), address 0x80fc, size 0xa: wbskt_argsof_EFhtml
+bank09 (page 0x09), address 0x8106, size 0x11: wbskt_typeof_DShtml
+bank09 (page 0x09), address 0x8117, size 0x10: wbskt_nameof_DShtml
+bank09 (page 0x09), address 0x8127, size 0xa: wbskt_argsof_DShtml
+bank09 (page 0x09), address 0x8131, size 0x11: wbskt_typeof_FlowSetZero
+bank09 (page 0x09), address 0x8142, size 0x15: wbskt_nameof_FlowSetZero
+bank09 (page 0x09), address 0x8157, size 0xa: wbskt_argsof_FlowSetZero
+bank09 (page 0x09), address 0x8161, size 0x11: wbskt_typeof_M
+bank09 (page 0x09), address 0x8172, size 0xb: wbskt_nameof_M
+bank09 (page 0x09), address 0x817d, size 0xa: wbskt_argsof_M
+bank09 (page 0x09), address 0x8187, size 0x11: wbskt_typeof_B
+bank09 (page 0x09), address 0x8198, size 0xb: wbskt_nameof_B
+bank09 (page 0x09), address 0x81a3, size 0xa: wbskt_argsof_B
+bank09 (page 0x09), address 0x81ad, size 0x11: wbskt_typeof_p1off
+bank09 (page 0x09), address 0x81be, size 0xf: wbskt_nameof_p1off
+bank09 (page 0x09), address 0x81cd, size 0xa: wbskt_argsof_p1off
+bank09 (page 0x09), address 0x81d7, size 0x11: wbskt_typeof_p2off
+bank09 (page 0x09), address 0x81e8, size 0xf: wbskt_nameof_p2off
+bank09 (page 0x09), address 0x81f7, size 0xa: wbskt_argsof_p2off
+bank09 (page 0x09), address 0x8201, size 0x11: wbskt_typeof_p3off
+bank09 (page 0x09), address 0x8212, size 0xf: wbskt_nameof_p3off
+bank09 (page 0x09), address 0x8221, size 0xa: wbskt_argsof_p3off
+bank09 (page 0x09), address 0x822b, size 0x11: wbskt_typeof_tRef
+bank09 (page 0x09), address 0x823c, size 0xe: wbskt_nameof_tRef
+bank09 (page 0x09), address 0x824a, size 0xa: wbskt_argsof_tRef
+bank09 (page 0x09), address 0x8254, size 0x11: wbskt_typeof_t2off
+bank09 (page 0x09), address 0x8265, size 0xf: wbskt_nameof_t2off
+bank09 (page 0x09), address 0x8274, size 0xa: wbskt_argsof_t2off
+bank09 (page 0x09), address 0x827e, size 0x11: wbskt_typeof_t3off
+bank09 (page 0x09), address 0x828f, size 0xf: wbskt_nameof_t3off
+bank09 (page 0x09), address 0x829e, size 0xa: wbskt_argsof_t3off
+bank09 (page 0x09), address 0x82a8, size 0x11: wbskt_typeof_t4off
+bank09 (page 0x09), address 0x82b9, size 0xf: wbskt_nameof_t4off
+bank09 (page 0x09), address 0x82c8, size 0xa: wbskt_argsof_t4off
+bank09 (page 0x09), address 0x82d2, size 0x11: wbskt_typeof_t5off
+bank09 (page 0x09), address 0x82e3, size 0xf: wbskt_nameof_t5off
+bank09 (page 0x09), address 0x82f2, size 0xa: wbskt_argsof_t5off
+bank09 (page 0x09), address 0x82fc, size 0x11: wbskt_typeof_t6off
+bank09 (page 0x09), address 0x830d, size 0xf: wbskt_nameof_t6off
+bank09 (page 0x09), address 0x831c, size 0xa: wbskt_argsof_t6off
+bank09 (page 0x09), address 0x8326, size 0x11: wbskt_typeof_woff
+bank09 (page 0x09), address 0x8337, size 0xe: wbskt_nameof_woff
+bank09 (page 0x09), address 0x8345, size 0xa: wbskt_argsof_woff
+bank09 (page 0x09), address 0x834f, size 0x12b4: Application_Run_Once
+bank09 (page 0x09), address 0x9603, size 0x28: PDQ_welcome
+bank09 (page 0x09), address 0x962b, size 0xd: varname_LoP
+bank09 (page 0x09), address 0x9638, size 0x10: varname_SucSat
+bank09 (page 0x09), address 0x9648, size 0x11: varname_LowTemp
+bank09 (page 0x09), address 0x9659, size 0x11: varname_degF_Lo
+bank09 (page 0x09), address 0x966a, size 0xd: varname_HiP
+bank09 (page 0x09), address 0x9677, size 0x15: varname_highFlowPSI
+bank09 (page 0x09), address 0x968c, size 0x10: varname_DisSat
+bank09 (page 0x09), address 0x969c, size 0x10: varname_HiTemp
+bank09 (page 0x09), address 0x96ac, size 0x11: varname_degF_Hi
+bank09 (page 0x09), address 0x96bd, size 0xe: varname_Watt
+bank09 (page 0x09), address 0x96cb, size 0x10: varname_kWPton
+bank09 (page 0x09), address 0x96db, size 0xe: varname_EERv
+bank09 (page 0x09), address 0x96e9, size 0xe: varname_BTUH
+bank09 (page 0x09), address 0x96f7, size 0xe: varname_tons
+bank09 (page 0x09), address 0x9705, size 0xe: varname_Evap
+bank09 (page 0x09), address 0x9713, size 0xe: varname_MFPM
+bank09 (page 0x09), address 0x9721, size 0x12: varname_EnergykW
+bank09 (page 0x09), address 0x9733, size 0xe: varname_hliq
+bank09 (page 0x09), address 0x9741, size 0xe: varname_hvap
+bank09 (page 0x09), address 0x974f, size 0xc: varname_Dh
+bank09 (page 0x09), address 0x975b, size 0xd: varname_Rho
+bank09 (page 0x09), address 0x9768, size 0xe: varname_Flow
+bank09 (page 0x09), address 0x9776, size 0xd: varname_OAT
+bank09 (page 0x09), address 0x9783, size 0xd: varname_SAT
+bank09 (page 0x09), address 0x9790, size 0xd: varname_EAT
+bank09 (page 0x09), address 0x979d, size 0xd: varname_LAT
+bank09 (page 0x09), address 0x97aa, size 0xd: varname_ERH
+bank09 (page 0x09), address 0x97b7, size 0xd: varname_FAN
+bank09 (page 0x09), address 0x97c4, size 0x10: varname_BLOWER
+bank09 (page 0x09), address 0x97d4, size 0x10: varname_DAMPER
+bank09 (page 0x09), address 0x97e4, size 0x69: Send_VarTm
+bank09 (page 0x09), address 0x984d, size 0x71: RECvars
+bank09 (page 0x09), address 0x98be, size 0x66: RECvars2
+bank09 (page 0x09), address 0x9924, size 0x2a: pdq_connected_jsstr
+bank09 (page 0x09), address 0x994e, size 0x26: ethersmart_error_msgfmt
+bank09 (page 0x09), address 0x9974, size 0x18fc: Application_Loop
+bank09 (page 0x09), address 0xb270, size 0x222: Init_Application
+Total size of definitions in application.c: 13458 bytes (82.14%% of page size)
+--
+Functions and ROM objects defined in main.c:
+bank08 (page 0x08), address 0xa31f, size 0x225: Ether_Task_Setup_Default
+bank06 (page 0x06), address 0x8000, size 0x3b: websocket_handler
+bank06 (page 0x06), address 0x803b, size 0x15: PDQ_Init
+bank06 (page 0x06), address 0x8050, size 0x2cf: main
+bank08 (page 0x08), address 0xa544, size 0x225: WiFi_Task_Setup_Default
+bank08 (page 0x08), address 0xa769, size 0x23: Ether_Set_Defaults
+bank08 (page 0x08), address 0xa78c, size 0x4e: Ether_Set_Local_IP
+bank08 (page 0x08), address 0xa7da, size 0x39: Ether_Ping
+bank08 (page 0x08), address 0xa813, size 0x22: Ether_Web_Demo
+Total size of definitions in main.c: 2101 bytes (12.82%% of page size)

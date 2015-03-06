@@ -1,0 +1,11 @@
+\ -- Begin forthcalls
+\ -- _q functions
+: Ether_Task_Setup_Default( DIN 0x8a31f CALL.CFN ;
+: WiFi_Task_Setup_Default( DIN 0x8a544 CALL.CFN ;
+: Ether_Set_Defaults( DIN 0x8a769 CALL.CFN ;
+: Ether_Set_Local_IP( DIN 0x8a78c CALL.CFN ;
+: Ether_Ping( DIN 0x8a7da CALL.CFN ;
+: Ether_Web_Demo( DIN 0x8a813 CALL.CFN ;
+: _cinit( DIN 0x8045 CALL.CFN ;
+\ -- _qv variables
+\ -- End forthcalls
